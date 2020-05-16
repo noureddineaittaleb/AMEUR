@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+    
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 5px #c3c3c3;
+  width:40%;
+}
+
+#panel {
+  padding: 34px;
+  width: 36%;
+}
+</style>
+</head>
+<body>
+ <center>
+<div id="flip"><font size=5 color=blue>Click pour faire jouer le slide Bas/Haut</font></div>
+<br>
+<div id="panel"><font size=8 color=red>ana mojod ostad</font></div>
+</center>
+</body>
+</html>

@@ -1,0 +1,24 @@
+
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    var div=$("div");
+div.animate({left:'100px'}, "slow");
+div.animate({fontSize:'3em'}, "slow");
+  });
+});
+</script>
+</head>
+<body>
+<button>Démarrer l'Animation</button>
+
+<p>par défaut, tous les éléments HTMLont une position statique et ne peuvent pas étre déplacés.pour manipuler la position,</p>
+<p>n'oubliez pas de définir d'abord la propriété css position de l'élément sur relative, fixe ou absolue!</p>
+
+<div style="background:#98bf21;height:100px;width:200px;position:absolute;">Noureddine</div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+ $("button").click(function(){
+     $("#div1").fadeln(); 
+        $("#div2").fadeln("slow");
+        $("#div3").fadeln(3000);
+ 
+  });
+ });
+</script>
+</head>
+<body>
+<p>Démonstration fadeln()avec différent paramétres.</p>
+<button>Cliquer pour faire apparaitre les boittes</button><br><br>
+<div id="div1" style="width:90px;height:90px;display:nome;background-color:red;"></div><br>
+<div id="div2" style="width:90px;height:90px;display:nome;background-color:green;"></div><br>
+<div id="div3" style="width:90px;height:90px;display:nome;background-color:blue;"></div><br>
+
+
+</body>
+</html>
